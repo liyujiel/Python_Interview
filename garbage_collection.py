@@ -29,7 +29,7 @@ for _ in range(10000):
     a.append(SingleThreadObject())
     del a
     del b
-    gc.collect() # if not comments, large number will shows up
+    gc.collect() # if not como,mments, large number will shows up
 
 # gc.collect()
 print(counter)
