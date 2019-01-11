@@ -1,5 +1,8 @@
 """
 Python3 Threading example
+
+# ref: https://blog.csdn.net/qdx411324962/article/details/46810421
+
 """
 import multiprocessing
 import os
