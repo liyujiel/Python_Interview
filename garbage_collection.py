@@ -1,7 +1,14 @@
+"""
+FINISHED
+
+Python3 gc lib example
+
+"""
 import gc
 
 
 counter = 0
+
 
 class SingleThreadObject(object):
     def __init__(self):
@@ -29,7 +36,7 @@ for _ in range(10000):
     a.append(SingleThreadObject())
     del a
     del b
-    gc.collect() # if not como,mments, large number will shows up
+    gc.collect() # if not comments, large number will shows up
 
 # gc.collect()
 print(counter)
