@@ -9,6 +9,8 @@ Read List:
 
 * [Understand threading](https://www.cnblogs.com/chengd/articles/7770898.html)
 
+* [Thread & Multi Threading](http://www.runoob.com/python3/python3-multithreading.html)
+
 ## threading Vs. thread
 
 python提供了多种模块用来支持多线程编程，
